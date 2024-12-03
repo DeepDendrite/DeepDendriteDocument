@@ -1,22 +1,28 @@
-Welcome to Lumache's documentation!
-===================================
+.. DeepDendrite documentation master file, created by
+   sphinx-quickstart on Wed Sep 25 19:16:25 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+DeepDendrite documentation
+==========================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Team
+====
 
-.. note::
+.. container:: author-info
 
-   This project is under active development.
+   .. image:: _static/author_avatar.png
+      :alt: Author Avatar
+      :height: 100px
+      :width: 100px
+      :align: center
 
-Contents
---------
+   **Author: Your Name**
+
+----
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   usage
-   api
+   setup
