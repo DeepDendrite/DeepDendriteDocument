@@ -28,4 +28,6 @@ iii. Compile by running docker image
 docker run -it --rm -v .:/app deepdendritedoc
 ```
 
-## Then you can preview the documentation page locally by checking HTML pages in docs/build/html.
+Then you can preview the documentation page locally by checking HTML pages in docs/build/html.
+
+If you have modified the files and want to push it to the remote repo, please create a new branch with a name of version. Before pushing, change the version to your branch name in docs/source/conf.py.
