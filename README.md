@@ -1,22 +1,21 @@
+# To read the doc
+
+Please visit:https://deepdendrite.readthedocs.io/
+
 # To modify and compile:
 
 ## 1. Clone this repo
 
 ```
-git clone https://github.com/Fisheory/DeepDendrite_Documentation.git
+git clone https://github.com/DeepDendrite/DeepDendriteDocument.git
+cd DeepDendriteDocument
 ```
 
 ## 2. Use docker to compile
 
 Make sure your docker service is enabled.
 
-i. Pull python:3.9-slim
-
-```
-docker pull python:3.9-slim
-```
-
-ii. Build image
+i. Build docker image
 
 ```
 docker build -t deepdendritedoc .
@@ -25,7 +24,7 @@ docker build -t deepdendritedoc .
 iii. Compile by running docker image
 
 ```
-docker run -it --rm -v .:/app deepdendritedoc
+./make_in_docker.sh html
 ```
 
 Then you can preview the documentation page locally by checking HTML pages in docs/build/html.
