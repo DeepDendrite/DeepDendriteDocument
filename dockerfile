@@ -12,6 +12,4 @@ RUN apt-get update && \
 COPY ./docs/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . /app
-
-CMD ["sh", "-c", "cd /app/docs && make html"]
+ENTRYPOINT ["make", "-C", "/app/docs"]

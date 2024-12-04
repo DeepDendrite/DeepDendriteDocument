@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'DeepDendrite_Documentation'
-copyright = '2024, 123'
-author = '123'
+project = 'DeepDendrite'
+copyright = '2024, Peking University'
+author = 'Yichen Zhang, Gan He, Kai Du'
 
 release = '0.1'
 version = '0.1.1'

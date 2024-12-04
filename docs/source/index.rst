@@ -3,21 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-DeepDendrite documentation
-==========================
+DeepDendrite Documentation
+===========================
 
 Team
 ====
 
 .. container:: author-info
 
-   .. image:: _static/author_avatar.png
-      :alt: Author Avatar
-      :height: 100px
-      :width: 100px
-      :align: center
+   **Authors:**
 
-   **Author: Your Name**
+   - Yichen Zhang, Peking University
+   - Gan He, Peking University
+   - Shenjian Zhang, Peking University
+   - Yutao He, Peking University
+   - Junfeng Lu, Peking University
+   - Kai Du, Peking University
 
 ----
 
